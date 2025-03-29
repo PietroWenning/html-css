@@ -1,0 +1,359 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ /* ESTILO GERAL */
+ :root{
+  --corpricipal:#0895EB;
+  --corsombra: #0454af;
+  --corchocolate:#1a1a1a;
+ }
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+
+    .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .poppins-extralight {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .poppins-light {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .poppins-extrabold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .poppins-black {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .poppins-thin-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .poppins-extralight-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      .poppins-light-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .poppins-regular-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .poppins-medium-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .poppins-semibold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .poppins-bold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .poppins-extrabold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      
+      .poppins-black-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+}
+
+/*button contato */ 
+.user-profile {
+  width: 131px;
+  height: 51px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  background: linear-gradient(
+    to bottom right,
+    #2e8eff 0%,
+    rgba(46, 142, 255, 0) 30%
+  );
+  background-color: rgba(46, 142, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-profile:hover,
+.user-profile:focus {
+  background-color: rgba(46, 142, 255, 0.7);
+  box-shadow: 0 0 10px rgba(46, 142, 255, 0.5);
+  outline: none;
+}
+
+.user-profile-inner {
+  width: 127px;
+  height: 47px;
+  border-radius: 13px;
+  background-color: var(--corchocolate);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.user-profile-inner svg {
+  width: 27px;
+  height: 27px;
+  fill: #fff;
+}
+
+.flex{
+  display: flex;
+}
+body{font-family: "poppins", sans-serif;
+    background-color: #1a1a1a;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+} 
+h2.titulo{
+  color:#fff;
+  font-size: 42px;
+  text-align: center;
+
+}
+h2.titulo span{
+  color: var(--corpricipal);
+}
+button:hover{ box-shadow: 0px 0px 10px var(--corsombra);
+  transform: scale(1.05);
+  
+   }
+
+/*ESTILO DO CABEÇALHO*/
+
+ header > .interface{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ header a{
+  font-size: 15px;
+  transition: 0.5s;
+  display: inline-block;
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+ }
+ header a:hover{
+  color: white;
+  transform: scale(1.08);
+ }
+ header nav ul{
+    list-style-type: none;
+ }
+ header nav ul li{
+    display: inline-block;
+    padding: 0px 40px;
+ }
+ .btn-contato button {
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: var(--corpricipal);
+  border: 0px;
+  border-radius: 30px;
+
+ color: rgb(0, 0, 0);
+ cursor: pointer;
+ transition: .2s;
+ }
+
+
+ header .logo img{
+  width: 110px;
+ }
+ /* ESTILO DO TOPO DO SITE*/
+
+ section.topo-do-site{
+  padding:40px 4%;
+ }
+ section.topo-do-site .flex {
+   align-items: center;
+   justify-content: center;
+   gap: 90px;
+ }
+
+ .topo-do-site .txt-topo-site h1{
+  color: white;
+  font-size: 44px;
+  line-height: 40px;
+ }
+ .topo-do-site .txt-topo-site h1 span{
+  color:var(--corsombra);
+ }
+ .topo-do-site .txt-topo-site p{
+  text-indent: 15px;
+  text-align: 20px;
+  
+  color: white;
+  margin: 40px 0px;
+ }
+
+ .topo-do-site .img-topo-site img{
+position:relative;
+animation: flutuar 2s ease-in-out infinite alternate;
+ }
+@keyframes flutuar{
+  0%{
+    top:0;
+  }
+  100%{
+    top:20px;
+  }
+ }
+  /*ESTILOS ESPECCIALIDADES*/
+section.especialidades{
+  padding: 60px 4%;
+
+}
+section.especialidades .flex{
+  gap: 60px;
+}
+
+.especialidades .especialidades-box{
+  color: #fff;
+  padding: 40px;
+  margin-top: 40px;
+  border-radius: 20px;
+  transition: .2s;
+}
+.especialidades .especialidades-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 0px 12px #ffffff73;
+}
+.especialidades .especialidades-box i{
+  font-size: 65px;
+  color:#0895EB;
+}
+.especialidades .especialidades-box p{
+  text-indent: 10px;
+}
+.especialidades .especialidades-box h3{
+  font-size: 28px;
+  margin: 15px 0px;
+}
+/*estilo sobre*/
+
+section.sobre
+{
+  padding: 40px 4%;
+}
+section .sobre .flex{
+  align-items: center;
+  gap: 60px;
+
+}
+.sobre .txt-sobre{
+  color: #fff;
+}
+.sobre .txt-sobre h2{
+  margin: 0px 20px;
+  font-size: 50px;
+  color: #fff;
+} 
+.sobre .txt-sobre p{
+  font-size: 16px;
+  margin: 20px;
+  text-align: justify;
+  text-indent: 10px;
+}
+.sobre .txt-sobre h2 span{
+  color: #0895EB;
+  display: block;
+}
+.sobre .txt-sobre h2 span abbr{
+  text-decoration:none;
+  transform: scale(1.05);
+}
+.sobre .txt-sobre h2 span abbr:hover{
+  text-decoration: underline;
+  transition: 0.5s;
+
+}
+.sobre .img-sobre img{
+  border-radius: 25px;
+  margin: 0px 20px;
+}
+.social button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--corpricipal);
+  border: none;
+  font-size: 23px;
+  cursor: pointer;
+  margin: 0px 5px;
+  transition: 0.2s;
+}

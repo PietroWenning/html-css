@@ -1,0 +1,34 @@
+@charset "UFT-8";
+@import url(8);
+
+
+body{
+    background-image:linear-gradient(to right, #007566,  #589A8D,#146551);
+}
+main{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 15px #08e9538c ;
+    width: 600px;
+}
+#principal{
+    color: #265C4B; 
+    text-align: center;
+    text-shadow: 2px 3px 3px #2d866a  ;
+
+
+
+}
+h1{ color: #146551;
+    text-shadow: 2px 2px 3px#4f8f7f;
+}
+h2{ color: #8FC1B5;
+}
+    p{ text-align: justify;
+    }
+.manual{color:#0B2B40;}
+.automatico{
+    color: #164773 ;
+}
