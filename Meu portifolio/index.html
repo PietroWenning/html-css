@@ -29,10 +29,10 @@
         
         <nav class="menu-desktop">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Especialidades</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#especialidades">Especialidades</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
             </ul>
         </nav>
 
@@ -55,7 +55,7 @@
                             ></path>
                             </g>
                         </svg>
-                        <p>Contato</p>
+                        <p><a href="#contato">Contato</a></p>
                         </div>
                         </div>
                         <div class="btn-abrir-menu" id="btn-menu">
@@ -68,11 +68,11 @@
                             </div>
                             <nav>
                                 <ul>
-                                    <li><a href="#">Inicio</a></li>
-                                    <li><a href="#">Especialidades</a></li>
-                                    <li><a href="#">Sobre</a></li>
-                                    <li><a href="#">Projetos</a></li>
-                                    <li><a href="#">Contato</a></li>
+                                    <li><a href="#inicio">Inicio</a></li>
+                                    <li><a href="#especialidades">Especialidades</a></li>
+                                    <li><a href="#sobre">Sobre</a></li>
+                                    <li><a href="#projetos">Projetos</a></li>
+                                    <li><a href="#contato">Contato</a></li>
                                 </ul>
                             </nav>
                         </div><!---menu mobile-->
@@ -96,7 +96,7 @@
                         </p>
 
                              <div class="btn-contato">
-                                <a href="">
+                                <a href="#contato">
                                     <button>Entre Em Contato</button></a>
                             </div>
                     </div><!--txt-topo-site-->
@@ -172,6 +172,7 @@
         </section><!--Sobre-->
     </section>
 
+    <section id="projetos">
         <section class="portifolio">
             <div class="interface">
                 <h2 class="titulo"> MEU <span>PORTIFÓLIO</span></h2>
@@ -188,23 +189,25 @@
             </div><!--flex--->
         </div><!---interface-->
     </section><!--portifolio-->
+</section>
 
+<section id="contato"></section>
     <section class="formulario">
-        <div>
-        <interface>
+        
+        <div class="interface">
             <h2 class="titulo">FALA <span>COMIGO.</span></h2>
             
             <form action="">
                 <input type="text" name="" id=" " placeholder="Seu nome completo:" required>
-                <input type="text" name="" id=" " placeholder="Seu Email:" required>
-                <input type="text" name="" id=" " placeholder="Seu Celular:" required>
-                <textarea name="" id="" placeholder="Sua Mensagem"required></textarea>
+                <input type="email" name="" id=" " placeholder="Seu Email:" required>
+                <input type="tel" name="" id=" " placeholder="Seu Celular:" required>
+                <textarea name="text" id="" placeholder="Sua Mensagem"required></textarea>
 
                 <div class="btn-enviar">
-                    <inputw type="submit" name="" id="" value="Enviar" >
+                    <input type="submit" name="" id="" value="Enviar" >
                 </div>
             </form><!--contatos-->
-        </interface>
+        </div><!---interface--
     </section><!--formulario-->
     </main>
             <footer>
