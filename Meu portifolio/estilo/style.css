@@ -541,7 +541,7 @@ footer .logo-footer img {
   .topo-do-site h1 {
     font-size: 30px;
   }
-}
+
 .topo-do-site .img-topo-site img {
   width: 100%;
 }
@@ -585,4 +585,5 @@ footer .flex{
 }
 footer .line-footer{
   text-align: center;
+}
 }
