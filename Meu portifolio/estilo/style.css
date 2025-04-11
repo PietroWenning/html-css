@@ -224,7 +224,6 @@ header nav.menu-desktop ul li {
   background-color: var(--corpricipal);
   border: 0px;
   border-radius: 30px;
-
   color: rgb(0, 0, 0);
   cursor: pointer;
   transition: 0.2s;

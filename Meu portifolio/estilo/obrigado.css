@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Poppins&display=swap');
+* {
+ margin: 0;
+ padding: 0;
+}
+body{
+    background-color: #1a1a1a;
+}
+
+h2{color: rgba(255, 255, 255, 0.904);
+    font-family: "Funnel Display", sans-serif;;
+    font-size: 80px;
+    
+}
+button:hover{
+    box-shadow: 0px 0px 10px#035cc2;
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+button{cursor: pointer;
+    margin: 20px 20px;
+    border-radius: 30px;
+    border: 0;
+    padding: 10px 40px;
+    background-color: #2e8eff;
+
+    transition: 0.2s;
+}
+a > i{
+    font-size: 20px;
+    margin: 0px 10px 0px 0px;
+}
+a{
+    font-family: "Funnel Display", sans-serif;;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-decoration: none;
+   color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+a:hover{
+    
+   
+    transform: scale(1.08);
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
