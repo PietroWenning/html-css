@@ -54,3 +54,11 @@ a:hover{
     align-items: center;
     flex-direction: column;
 }
+@media screen and (max-width: 1020px){
+
+
+    h2{
+        padding: 0px 6%;
+        font-size: 60px;
+    }
+}
