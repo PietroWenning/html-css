@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             background-image: url('imagens/wallpaper002.jpg');
             height: 100vh;
-            background-position: center top;
+            /*background-position: center top;
             background-repeat: no-repeat;
             background-size: cover ;
+            background-attachment: fixed;*/
+
+            /*shorthand-background
+            color  > image > position >repeat >[size] >  attachment */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+            background-size: cover;
         }
             main{
-            height: 300px;
-            width: 350px;
+            max-width: 650px;
             background-color: white;
             padding: 20px;
             border-radius: 15px;
@@ -29,7 +35,9 @@
     <main>
         <h1>teste de imagens de fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia numquam quam, molestiae provident a obcaecati maiores aliquam totam at omnis iusto quibusdam ea aperiam. Minus nobis dolores ipsam impedit nostrum?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, possimus reprehenderit distinctio adipisci molestiae et. Ad dignissimos eius modi voluptatum. Labore, praesentium nam vero deleniti consequuntur porro nisi voluptate exercitationem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, possimus reprehenderit distinctio adipisci molestiae et. Ad dignissimos eius modi voluptatum. Labore, praesentium nam vero deleniti consequuntur porro nisi voluptate exercitationem. 
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae quae qui harum cupiditate odit, eaque doloribus laboriosam voluptatem quidem similique explicabo magnam, laborum tempore sit labore praesentium nisi esse accusantium.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus suscipit facilis sit obcaecati tempore sapiente numquam odit dolorum quisquam praesentium eveniet quaerat eius labore laborum quae aspernatur, molestias assumenda voluptas.
         </p>
     </main>
     
