@@ -132,8 +132,7 @@ section.normal{
       font-size: 10vw;
    }
    section#img01{
-      min-width: 300px;
-      max-width: 900px;
+      background-size: cover;
       background-position: center center;
       
    }
