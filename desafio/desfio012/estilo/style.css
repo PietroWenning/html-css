@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+.passion-one-regular {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.passion-one-black {
+  font-family: "Passion One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.playwrite-dk-loopet+{
+  font-family: "Playwrite DK Loopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+:root{
+   --fonte1: verdana, tahoma, sans-serif;
+   --fonte2: 'PasPassion One', sans-serif ;
+   --fonte3: 'Playwrite DK Loopet', cursive;
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,6 +39,8 @@
 html,body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
+    scroll-behavior: smooth;
 }
 /*Cabeçalho*/
 header{
@@ -14,7 +48,9 @@ header{
     color: white;
     text-align: center;
 }
-header > h1{
+header > h1{font-size: 4vw;
+   font-weight: 700;
+   font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -26,10 +62,8 @@ header > h1{
     padding-left: 10px;
     color: #969696;
     text-decoration: none;
-    transition: 0.5s;
-  
-    
-
+    transition: 0.2s;
+   
  }
  footer{
     background-color: black;
@@ -43,16 +77,23 @@ header > h1{
  }
  a:hover{
     font-size: 18px;
-    color: rgb(104, 188, 236);
-    transform: scale(1.08);
+    text-decoration: underline;
+    color: white;
+    transition: 0.2s;
+   
 
  }
  /*Conteudo*/
 section{
+   font-family: var(--fonte3);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 20px;
+    font-size: 2vw;
+}
+section > p{
+   padding-bottom: 2em;
 }
 section.normal{
     background-color: white;
@@ -61,8 +102,39 @@ section.normal{
  section.imagem{
     background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: 6px 6px 13px 0px rgba(0, 0, 0, 0.925);
+     background-attachment: fixed;
  }
  section.imagem > p{
-    width: 300px;
+   display: inline-block;
+   padding: 5px;
     background-color: rgba(0, 0, 0, 0.596);
+    text-shadow: 1px 1px 0px black;
+    background-size: cover;
+    
  }
+ section#img01{
+   background-image: url(../imagens/background001.jpg);
+   background-position: right center;
+   
+
+
+ }
+ section#img02{
+   background-image: url(../imagens/background002.jpg)
+   ;
+ }
+ @media screen and (max-width: 1020px) {
+   section{
+      font-size: 4vw;
+   }
+   header > h1{
+      font-size: 10vw;
+   }
+   section#img01{
+      max-width: 600px;
+      background-position: center center;
+      
+   }
+ }
+ 
