@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 8px;
+        }
+    col.cnome{
+        background-color: bisque;
+    }
+    col.cgroup{
+        background-color: aliceblue;
+    }
+    </style>
+</head>
+<body>
+    <h1>Exericio de tabelas</h1>
+
+   <table>
+    <colgroup>
+    <col class="cnome">
+    <col class="cgroup" span="3">
+    </colgroup>
+    <caption><strong>Cadrasto</strong></caption>
+    <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+        
+    </tr>
+    <tr>
+        <td>Pietro Calebe</td>
+        <td>M</td>
+        <td>15</td>
+        <td>Programador</td>
+    </tr>
+    <tr>
+        <td>Matheus Cunha</td>
+        <td>M</td>
+        <td>24</td>
+        <td>Jogador de Futebol</td>
+    </tr>
+    <tr>
+        <td>Ana Maria</td>
+        <td>F</td>
+        <td>22</td>
+        <td>Medicina</td>
+    </tr>
+    <tr>
+        <td>João Paulo</td>
+        <td>M</td>
+        <td>33</td>
+        <td>Pedreiro</td>
+    </tr>
+    <tr>
+        <td>Joana Guimarães</td>
+        <td>F</td>
+        <td>25</td>
+        <td>Jornalita</td>
+    </tr>
+   </table>
+    
+</body>
+</html>
